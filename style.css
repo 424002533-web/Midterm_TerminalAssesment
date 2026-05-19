@@ -12,8 +12,6 @@ body {
     color: rgb(255, 255, 255);
 }
 
-/* NAVBAR DESIGN */
-
 .navbar {
     background-color: #ddbc00;
     padding: 15px 0;
@@ -33,23 +31,19 @@ body {
     font-weight: 500;
 }
 
-/* Hover Effect */
 .navbar-nav .nav-link:hover {
     color: #0300ce !important;
 }
 
-/* Active Link */
 .navbar-nav .nav-link.active {
     color: #ffd166 ;
     font-weight: bold;
 }
 
-/* Hamburger Icon Border */
 .navbar-toggler {
     border: 1px solid white;
 }
 
-/* Mobile Navbar */
 @media (max-width: 991px) {
 
     .navbar-nav {
@@ -80,8 +74,6 @@ body {
     box-shadow: 0 0 20px #ebe6e6;
 }
 
-
-/* HERO SECTION */
 .hero {
     height: 100vh;
     background: linear-gradient(
@@ -97,7 +89,6 @@ body {
     text-align: center;
 }
 
-/* CARD HOVER EFFECT */
 .card {
     transition: transform 0.3s;
 }
